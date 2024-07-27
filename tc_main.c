@@ -23,7 +23,7 @@
 
 static const char*  DAEMON_NAME     = "tcsimd";
 static const char*  TEMP_FILENAME   = "/tmp/temp";
-static const char*  STATE_FILENAME  = "/tmp/status";
+static const char*  STATE_FILENAME  = "/tmp/heater";
 static const char*  WORKING_DIR     = "/";
 
 static const long   SLEEP_DELAY     = 5;

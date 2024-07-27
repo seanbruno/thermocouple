@@ -1,5 +1,4 @@
-BUILDROOT_HOME=/home/cclamb/buildroot-2016.11.1
-
+BUILDROOT_HOME=/home/vagrant/buildroot-2024.02.2
 CC=$(BUILDROOT_HOME)/output/host/usr/bin/arm-linux-gcc
 CFLAGS=--sysroot=$(BUILDROOT_HOME)/output/staging
 INCLUDES=
@@ -21,5 +20,5 @@ $(MAIN): $(OBJ)
 
 all: $(MAIN)
 
-clean: 
+clean:
 	$(RM) $(MAIN) *.o *~
